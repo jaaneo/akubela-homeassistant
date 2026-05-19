@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Conectar Akubela HyPanel",
+        "description": "Ingresa los datos de tu HyPanel. El token se obtiene desde el portal web del panel (Local Storage → AKUBELA_USER-TOKEN).",
+        "data": {
+          "host": "IP del HyPanel",
+          "port": "Puerto (default: 80)",
+          "access_token": "Token de acceso (AKUBELA_USER-TOKEN)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo conectar al HyPanel. Verifica la IP, el puerto y que el Control de API esté habilitado en Modo servidor.",
+      "timeout": "Timeout de conexión. Verifica que el HyPanel esté encendido y accesible."
+    },
+    "abort": {
+      "already_configured": "Este HyPanel ya está configurado."
+    }
+  }
+}
