@@ -1,7 +1,7 @@
 {
   "domain": "akubela",
   "name": "Akubela HyPanel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "documentation": "https://github.com/jaaneo/akubela-homeassistant",
   "issue_tracker": "https://github.com/jaaneo/akubela-homeassistant/issues",
   "requirements": [],
